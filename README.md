@@ -1,34 +1,23 @@
-PARA EJECUTAR EL PROYECTO:
+# JobJoin
 
-Al instalar el proyecto se tiene que usar el comando:
-- npm install
+**JobJoin** is an initial prototype of a full-stack application designed to connect workers and employers for informal jobs, such as plumbers, electricians, builders, cooks, waiters, and more. The app allows users to create profiles as either **workers** or **employers** and apply for or post job opportunities.
 
-Seguido de estas la instalación gloabl de:
-- npm install concurrently --save-dev
-- npm install nodemon --save-dev
+I led a **team of 4 people** in the development of this application, overseeing **software design, front-end and back-end engineering, and programming**.  
 
-Los comandos de ejecución son:
+## Features
 
-Inicio del cliente ("frontend"):
+- User registration and login for **workers** and **employers**  
+- **Authentication and validation** of user accounts  
+- **JWT (JSON Web Token)** for secure authentication  
+- Integration with **Gmail service** for email notifications  
+- Creation and management of **worker and employer profiles**  
+- Full-stack development with **React** (front-end) and **SQLite** (database)  
+- Initial prototype focused on **core functionalities** for testing workflows and usability  
 
-- npm run dev
+## Technologies Used
 
-Inicio del servidor ("backend"):
-
-- npm run dev:server
-
-Inicio simultáneo:
-
-- npm run dev:all
-
---- 
-
-Se tiene que agregar las dependecias
--  npm install axios 
--  npm install express sqlite3 body-parser cors
-
-se tiene que crear la base local con "sqlite3 jobjoin.db" localmente y salir, los scritps ya tienen las instrucciones para crear las tablas en caso de no existir, se levanta una servidor con "node server.js" y se tendría que ver algo así: 
-"Tablas creadas correctamente (si no existían)."
-"Servidor corriendo en http://localhost:5000"
-"Conexión exitosa a SQLite"
-
+- **Frontend:** React  
+- **Backend & Database:** Node.js, SQLite  
+- **Authentication & Security:** JWT, email validation, Gmail integration  
+- **Team Collaboration:** Agile methodology, Git/GitHub  
+- **Project Management:** Design, software engineering principles, code reviews  
